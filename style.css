@@ -1,0 +1,438 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.maintext  {
+	font-family: Courier, "Segoe Print", sans-serif;
+}
+header {
+	width:100%;
+	height:70px;
+	background-color: #EC715F;
+}
+.head {
+	width:1024px;
+	height:70px;
+	margin: 0 auto ;
+}
+.logo {
+	margin: 0 auto;
+	height:70px;
+	float:left;
+}
+.nav-list {
+	text-align: center;
+	float:right;
+}
+.nav-list-item {
+	font-size: 16px;
+	list-style: none;
+	display : inline-block;
+	padding: 20px 30px;
+	color:#FAFAFA;
+}
+
+.main-visual {
+	background-image: url(img/mv.png);
+	background-size: cover;
+	width:100%;
+	height:650px;
+	padding-top:250px;
+}
+.main-visual-content {
+	height:250px;
+	width:600px;
+	margin: 0 auto;
+}
+.main-visual-logo {
+	text-align:center;
+	font-size:64px;
+	color:#FAFAFA;
+}
+.main-visual-text {
+	text-align:center;
+	font-size:20px;
+	color:#FAFAFA;
+}
+
+.portfolio {
+	width:100%;
+	background-color:#ECEFF1;
+
+}
+.port {
+	width:920px;
+	height:100%;
+	margin: 0 auto;
+
+}
+.line {
+	height:3px;
+	width:70px;
+	background-color:#EC715F;
+	margin: 0 auto;
+}
+.maintext {
+	font-size:32px;
+	color:#000000;
+	padding-top:90px;
+	text-align:center;
+	padding-bottom: 8px;
+
+}
+
+.text {
+	font-size:16px;
+	color:#000000;
+	margin-top:30px;
+	text-align:center;
+	padding-bottom:30px;
+}
+.pic1 {
+	width:300px;
+	height:250px;
+	background-image: url(img/sketch.jpg);
+    background-size:300px 250px;
+    float:left;
+    margin-right:10px;
+}
+.pic2 {
+	width:300px;
+	height:250px;
+	background-image: url(img/websuku.png);
+	background-size:300px 250px;
+	float:left;
+	margin-right:10px;
+}
+.pic3 {
+	width:300px;
+	height:250px;
+	background-image: url(img/write.jpg);
+	background-size:100% 100%;
+	float:left;
+}
+.pic4 {
+	width:300px;
+	height:250px;
+	background-image: url(img/webcamp.png);
+	background-size:100% 100%;
+	float:left;
+	margin:10px 10px 0 0;
+}
+.pic5 {
+	width:300px;
+	height:250px;
+	background-image: url(img/talk.jpg);
+	background-size:100% 100%;
+	float:left;
+	margin:10px 10px 90px 0;
+}
+.pic6 {
+	width:300px;
+	height:250px;
+	background-image: url(img/webcamp-mother.png);
+	background-size:100% 100%;
+	float:left;
+	margin-top:10px;
+}
+
+.feature {
+	width:100%;
+}
+.feat {
+	width:980px;
+	height:100%;
+	margin: 0 auto;
+}
+.strength1 {
+	width:320px;
+	height:auto;
+	float:left;
+	margin:0px 10px 90px 0;
+}
+.iconbox {
+	text-align: center;
+}
+.icon {
+	font-size:60px;
+}
+.bigtext {
+	font-size:20px;
+	color:#000000;
+    text-align: center;
+    margin:10px 0;
+	}
+
+.strength2 {
+	width:320px;
+	height:auto;
+	float:left;
+	margin:0 10px 0 0;
+}
+.strength3 {
+	width:320px;
+	height:auto;
+	float:left;
+}
+
+
+.profile {
+	width:100%;
+	background-color:#ECEFF1;
+}
+.pro {
+	width:1024px;
+	height:100%;
+	margin: 0 auto;
+}
+.propic {
+	width:512px;
+	float:left;
+	margin-bottom:90px;
+}
+.picbox {
+	width:250px;
+	height:250px;
+	margin:0 auto ;
+}
+.image {
+	width:250px;
+	height:250px;
+	border-radius: 50%;
+}
+.textbox {
+	width:512px;
+	float:right;
+	margin-bottom:90px;
+}
+.nametext {
+	font-size:20px;
+    margin-bottom:5px;
+}
+.adtext {
+	font-size:20px;
+    margin-bottom:5px;
+}
+.skilltext {
+	font-size:20px;
+	margin:8px 0 5px 0;
+}
+
+.contact {
+	width:100%;
+}
+.cont {
+	width:800px;
+	height:;
+	margin: 0 auto;
+}
+.adbox {
+	width:400px;
+	float:left;
+    margin-bottom:90px;
+}
+.mail {
+	width:130px;
+	height:100%;
+    margin:0 auto;
+}
+.adress {
+	text-decoration: underline;
+	font-size:16px;
+}
+.tell {
+	width:130px;
+	height:100%;
+    margin:20px auto 0;
+}
+.snsbox {
+	width:400px;
+	float:left;
+}
+.snstext {
+	width:200px;
+	margin:0 auto;
+}
+.snsicon {
+	font-size:50px;
+}
+.social {
+	width:200px;
+	margin:0 auto;
+}
+
+footer {
+	height:60px;
+	background-color: #EC715F;
+	text-align:center;
+	padding:20px 0;
+}
+.footer-text {
+	font-size:16px;
+	color:#FAFAFA;
+}
+
+
+
+@media screen and (max-width:425px) {
+ header {
+ 	width:100%;
+  }
+
+ .none {
+ 	display:none;
+ }
+ .main-visual {
+ 	width:100%;
+ 	height:750px;
+ 	background-image:url(img/code.png);
+    background-position: center;
+    padding-top:200px;
+  }
+ .main-visual-content {
+ 	width:100%;
+ }
+ .main-visual-logo {
+ 	font-size:40px;
+ }
+ .main-visual-text {
+	font-size:18px;
+}
+ .maintext {
+ 	width:100%;
+ }
+ .portfolio {
+ 	width:100%;
+ }
+ .port {
+ 	width:100%;
+ 	padding:0 5%;
+ }
+ .pic2 {
+ 	float:none;
+ 	margin:0 auto 10px;
+ }
+ .pic4 {
+ 	float:none;
+ 	margin:0 auto;
+ }
+ .pic6 {
+ 	float:none;
+ 	margin:10px auto 90px;
+ }
+  .feature {
+    width:100%;
+ }
+ .feat {
+ 	width:100%;
+ 	padding:0 5%;
+ }
+ .strength1 {
+ 	margin:0 auto 10px;
+ 	float:none;
+ }
+ .strength2{
+ 	margin:0 auto 10px;
+ 	float:none;
+ }
+ .strength3 {
+ 	margin:0 auto 90px;
+ 	float:none;
+ }
+ .profile {
+    width:100%;
+ }
+ .pro {
+ 	width:100%;
+ 	padding:0 5%;
+ }
+ .propic {
+	width:100%;
+	float:none;
+	margin:0 auto 20px;
+}
+.textbox {
+	width:100%;
+	float:none;
+	margin:0 auto 90px;
+}
+.nametext {
+    text-align:center;
+    margin-bottom:5px;
+}
+.skilltext {
+	margin:20px 0 5px;
+	text-align:center;
+}
+ .contact {
+   width:100%;
+ }
+ .cont {
+ 	width:100%;
+ 	padding:0 5%;
+ }
+ .adbox {
+	width:100%;
+	float:none;
+    margin-bottom:20px;
+}
+.mail {
+	width:100%;
+	text-align: center;
+}
+.tell {
+	width:100%;
+	text-align: center;
+}
+.snsbox {
+	width:100%;
+	float:none;
+}
+.snstext {
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+.social {
+	width:100%;
+	margin:0 auto 90px;
+	text-align: center;
+}
+
+#humberger {
+  position: absolute;
+  right:25px;
+  top:15px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #EC715F;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+#humberger div {
+  position: absolute;
+  left: 4px;
+  height: 4px;
+  width: 24px;
+  background-color: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#humberger div:nth-of-type(1) {
+  top: 4px;
+}
+#humberger div:nth-of-type(2) {
+  top: 14px;
+}
+#humberger div:nth-of-type(3) {
+  bottom: 4px;
+}
